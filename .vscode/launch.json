@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-basics}/hello-swift",
+            "name": "Debug hello-swift (hello-swift)",
+            "program": "${workspaceFolder:swift-basics}/hello-swift/.build/debug/hello-swift",
+            "preLaunchTask": "swift: Build Debug hello-swift (hello-swift)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-basics}/hello-swift",
+            "name": "Release hello-swift (hello-swift)",
+            "program": "${workspaceFolder:swift-basics}/hello-swift/.build/release/hello-swift",
+            "preLaunchTask": "swift: Build Release hello-swift (hello-swift)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-basics}/SwiftProjects",
+            "name": "Debug CelsiusToFahrenheit (SwiftProjects)",
+            "program": "${workspaceFolder:swift-basics}/SwiftProjects/.build/debug/CelsiusToFahrenheit",
+            "preLaunchTask": "swift: Build Debug CelsiusToFahrenheit (SwiftProjects)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-basics}/SwiftProjects",
+            "name": "Release CelsiusToFahrenheit (SwiftProjects)",
+            "program": "${workspaceFolder:swift-basics}/SwiftProjects/.build/release/CelsiusToFahrenheit",
+            "preLaunchTask": "swift: Build Release CelsiusToFahrenheit (SwiftProjects)"
+        }
+    ]
+}
